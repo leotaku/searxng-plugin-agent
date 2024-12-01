@@ -1,0 +1,17 @@
+[project]
+name = "searxng-plugin-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.entry-points."searxng.plugins"]
+agent = "agent"
+
+[dependency-groups]
+dev = ["searxng"]
+
+[tool.uv.sources.searxng]
+# git = "https://github.com/searxng/searxng"
+path = "_searxng"
+editable = false
