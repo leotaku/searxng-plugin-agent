@@ -6,8 +6,9 @@ name = "Agent"
 description = "Add an LLM agent to your SearXNG search"
 default_on = False
 
+js_dependencies = ()
+css_dependencies = ()
 preference_section = "general"
-plugin_id = "agent"
 
 
 def pre_search(request: Request, search: Search) -> bool:
