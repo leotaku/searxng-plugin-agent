@@ -12,6 +12,5 @@ agent = "agent"
 dev = ["searxng"]
 
 [tool.uv.sources.searxng]
-# git = "https://github.com/searxng/searxng"
-path = "_searxng"
-editable = false
+path = "searxng"
+editable = true

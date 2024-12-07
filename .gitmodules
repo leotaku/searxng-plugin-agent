@@ -1,0 +1,3 @@
+[submodule "searxng"]
+	path = searxng
+	url = git@github.com:leotaku/searxng.git
