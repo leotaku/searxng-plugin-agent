@@ -1,7 +1,7 @@
 [project]
 name = "searxng-plugin-agent"
 version = "0.1.0"
-description = "Add your description here"
+description = "Add an LLM agent to your SearXNG search"
 readme = "README.md"
 requires-python = ">=3.9"
 
